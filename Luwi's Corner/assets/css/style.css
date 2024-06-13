@@ -122,6 +122,24 @@ html,body{height: 100%;}
 .section-header h2 span,.section-header p span{text-transform: lowercase;}
 
 /* section-header */
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .column {
+    width: 50%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+      
 
 /*=============Style css=========*/
 
@@ -568,6 +586,25 @@ Icon styles
     width: 100%;
     height:72px;
     border-radius:0;
+}
+.flavour-text{
+    text-align: center;
+}
+.flav1
+{
+    color: rgba(155, 38, 38, 0.491);
+}
+.flav2{
+    color: rgba(0, 0, 255, 0.402);
+}
+.flav3{
+    color: rgba(255, 0, 0, 0.575);
+}
+.flav4{
+    color: rgba(55, 80, 18, 0.642);
+}
+.flav5{
+    color: rgba(250, 128, 114, 0.893);
 }
 /*-------------------------------------
         10. Blog
